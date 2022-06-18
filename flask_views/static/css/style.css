@@ -1,0 +1,36 @@
+h1{
+    color: lightblue;
+}
+
+
+.alert{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    margin-top: 10px;
+}
+
+
+.alert-success{
+
+    background-color: lightgreen;
+}
+
+
+.alert-info{
+
+    background-color: lightblue;
+}
+
+
+.alert-warning{
+    background-color: yellow;
+}
+
+
+.alert-danger{
+    background-color: pink;
+}
+
+
+

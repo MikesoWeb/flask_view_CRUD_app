@@ -1,0 +1,23 @@
+{% extends 'flask_views/layout.html' %}
+
+
+{% block header %}
+
+{% endblock header %}
+
+{% block content %}
+
+<div class="container text-center border mt-5">
+
+    <div class="alert alert-info fs-1">
+        Моя личная 404 страница ; )
+    </div>
+    <p>{{ e }}</p>
+    <div class="div">
+        <img src="{{ url_for('static', filename='img_404/404.png') }}" width="300" alt="404_error">
+    </div>
+    <p>Вернитесь на <a href="{{ url_for('index') }}">главную страницу приложения</a></p>
+</div>
+
+
+{% endblock content%}
